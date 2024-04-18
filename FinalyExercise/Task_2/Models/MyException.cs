@@ -16,7 +16,10 @@ namespace Task_2.Models
         {
 
         }
-        public MyException(string message, Exception innerException) : base(message, innerException) { }
+        public MyException(string message, Exception innerException) : base(message, innerException) 
+        { 
+
+        }
 
     }
 }
